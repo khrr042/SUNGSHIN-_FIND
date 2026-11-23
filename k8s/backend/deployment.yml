@@ -35,6 +35,13 @@ spec:
                 secretKeyRef:
                   name: postgres-secret
                   key: POSTGRES_PASSWORD
+            # Django SECRET_KEY (backend-secret 이 없으면 settings.py 의 개발용 기본값 사용)
+            - name: SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: backend-secret
+                  key: SECRET_KEY
+                  optional: true
           resources:
             requests:
               cpu: "100m"
