@@ -22,7 +22,7 @@ pipeline {
     // Jenkins 에 GKE Credential 을 추가하면 생기는 ID (강의자료 10주차 47p, 53~54p)
     // "Google Service Account from private key" 로 등록하면 보통 프로젝트 이름이 ID 가 됨
     // -> Jenkins Credentials 목록에서 실제 ID 가 다르면 그 값으로 바꿀 것
-    CREDENTIALS_ID = 'iron-area-514720-j0'
+    CREDENTIALS_ID = '60f20754-7d16-4d1f-bd5b-413e90fb1c29'
 
     // Docker Hub 아이디 (강의자료 8주차 34p 에서 저장소 만든 계정)
     // 중앙 레포: #43 에서 k8s 매니페스트가 slwnt31/sungshin-find-*:latest 로 바뀌었으므로 slwnt31
