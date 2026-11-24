@@ -119,3 +119,6 @@ kubectl get ns
 kubectl rollout history deployment/backend -n dev   # 배포 이력 확인
 kubectl rollout undo deployment/backend -n dev      # 이전 버전으로 되돌리기
 ```
+
+## CI/CD Practice
+- Personal Jenkins CI test
