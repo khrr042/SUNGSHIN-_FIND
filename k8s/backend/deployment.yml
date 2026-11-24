@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: slwnt31/sungshin-find-backend:latest
+          image: haram2/sungshin-find-backend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
