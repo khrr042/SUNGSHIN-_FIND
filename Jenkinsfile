@@ -27,11 +27,11 @@ pipeline {
     // Docker Hub 아이디 (강의자료 8주차 34p 에서 저장소 만든 계정)
     // 중앙 레포: #43 에서 k8s 매니페스트가 slwnt31/sungshin-find-*:latest 로 바뀌었으므로 slwnt31
     // 개인 Fork 연습 시: 본인 Docker Hub 아이디로 변경 (+ 본인 fork 의 k8s 매니페스트 image 도 같이 변경)
-    DOCKERHUB_ID = 'slwnt31'
+    DOCKERHUB_ID = 'dev_haram2'
 
     // 배포할 네임스페이스
     // 중앙 레포: dev  /  개인 Fork 연습 시: dev-본인이름 (예: dev-yuri)
-    NAMESPACE = 'dev'
+    NAMESPACE = 'dev-haram'
   }
 
   stages {

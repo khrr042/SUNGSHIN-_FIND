@@ -18,7 +18,7 @@
 # 강의자료: FROM jenkins/jenkins:lts-jdk11
 # 현재 Jenkins LTS 와 플러그인은 Java 17 이상이 필요해서 jdk11 로는 권장 플러그인 설치가 실패함
 # -> 이 한 줄만 jdk17 로 변경
-FROM jenkins/jenkins:lts-jdk17
+FROM jenkins/jenkins:lts-jdk21
 
 # 패키지 설치를 위해 root 로 전환
 USER root
